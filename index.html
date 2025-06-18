@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+
+    <link rel="icon" href="img/calculator.png" type="image/png">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h2 class="title-with-emojis">Tabuada Mágica!</h2>
+    <div class="tutorial">
+        <p id="tutorial-title">Como funciona? </p>
+        <p>1°) Escolha o número que deseja obter a tabuada</p>
+        <p>2°) Escolha até qual número deseja multiplicar</p>
+    </div>
+    <form id="multiplication-form">
+        <div class="form-control">
+            <label for="number">Tabuada do:</label>
+            <input type="number" name="number" id="number" placeholder="1">
+        </div>
+        <div class="form-control">
+            <label for="multiplicator">Multiplicar até:</label>
+            <input type="number" name="multiplicator" id="multiplicator" placeholder="1">
+        </div>
+        <input type="submit" value="Calcular">
+
+    </form>
+
+    <div id="multiplication-table">
+        <h2 id="multiplication-title">Tabuada do número: <span></span></h2>
+        <div id="multiplication-operations">
+            <p>Informe um número para calcular a tabuada...</p>
+        </div>
+    </div>
+</body>
+</html>

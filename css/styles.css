@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: helvetica;
+}
+
+body{
+    text-align: center;
+    padding: 2rem;
+    min-height: 100vh;
+    background: linear-gradient( 69.2deg,  rgba(77,143,251,1) 35.3%, rgba(202,51,255,1) 100.3% );;
+    color: #fff;
+    margin-top: 5vh;
+
+}
+
+h2{
+    margin-bottom: 1rem;
+}
+
+.title-with-emojis{
+    font-size: 30px;
+    position: relative; 
+    display: inline-block; 
+    padding: 0 40px;
+}
+
+.title-with-emojis::before {
+    content: "✨"; 
+    position: absolute;
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    font-size: 30px; 
+}
+
+.title-with-emojis::after {
+    content: "✨"; 
+    position: absolute;
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%);
+    font-size: 30px; 
+}
+
+.tutorial{
+    background-color: rgba(255, 255, 255, 0.15); /* Fundo semi-transparente branco */
+    backdrop-filter: blur(5px); /* Efeito de desfoque para o "vidro" */
+    -webkit-backdrop-filter: blur(5px); /* Suporte para navegadores WebKit */
+    border-radius: 15px; /* Bordas arredondadas */
+    padding: 1.5rem 2rem; /* Espaçamento interno */
+    margin: 2rem auto; /* Centraliza a caixa e adiciona margem superior/inferior */
+    max-width: 450px; /* Largura máxima da caixa */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37); /* Sombra para dar profundidade */
+    border: 1px solid rgba(255, 255, 255, 0.18); /* Borda sutil */
+    text-align: left; /* Alinha o texto à esquerda dentro da caixa */
+}
+
+.tutorial p{ 
+    font-size: 1.1rem; /* Tamanho da fonte para harmonia */
+    line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+    color: #f0f0f0; /* Cor do texto, um cinza claro para contraste */
+    margin-bottom: 0.8rem; /* Espaço entre os parágrafos */
+}
+
+#tutorial-title{ 
+    font-weight: bolder;
+}
+
+.tutorial p:last-child{
+    margin-bottom: 0; /* Remove a margem do último parágrafo */
+}
+
+#multiplication-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    color: #333;
+    margin-top: 5vh;
+    
+
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 0 1rem;
+}
+
+.form-control label{
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.form-control input{
+    margin-bottom: 1rem;
+    flex: 1;
+    padding: 0.6rem 0.4rem;
+    border: 1px solid #333;
+    width: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#multiplication-form input[type="submit"] {
+    margin-top: 0.5rem;
+    max-height: 50px;
+    padding: 0.6rem 1.2rem;
+    width: 200px;
+    color: #fff;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#multiplication-form input[type="submit"]:hover {
+    color: #fff;
+    background-color: #cd43df;
+    border-color: #cd43df;
+    transition: all 0.3s ease-in-out; /* Adiciona uma transição suave */
+}
+
+
+
+#multiplication-table{
+        margin-top: 5vh;
+
+}
+
+#multiplication-operations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: 1rem auto;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    color: #333;
+    border-radius: 1rem;
+}
+
+#multiplication-operations p{
+    color: #a5b1c2;
+}
+#multiplication-operations .row{
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    padding: 0.5rem;
+    width: 150px;
+}
+
+#multiplication-operations .row:last-child{
+    border-bottom: 1px solid #ccc;
+}
+
+#multiplication-operations .result{
+    margin-left: 0.4rem;
+}
