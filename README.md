@@ -52,4 +52,4 @@ Tudo isso com um design moderno, acessível e responsivo, pensado para facilitar
 ---
 
 Este projeto encantado foi desenvolvido por:
-👩‍💻 Laura Serbêto — ![Conecte-se comigo no LinkedIn](www.linkedin.com/in/lauraserbeto)
+👩‍💻 Laura Serbêto — [Conecte-se comigo no LinkedIn](www.linkedin.com/in/lauraserbeto)
